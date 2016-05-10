@@ -1,0 +1,26 @@
+{
+  "name": "caesium-coffee",
+  "version": "1.0.0",
+  "description": "Coffee Script compiler for caesium",
+  "main": "caesium-coffee.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaesiumJS/caesium-coffee.git"
+  },
+  "keywords": [
+    "caesium",
+    "coffee-script"
+  ],
+  "author": "Adam Laycock <adam@arcath.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CaesiumJS/caesium-coffee/issues"
+  },
+  "homepage": "https://github.com/CaesiumJS/caesium-coffee#readme",
+  "dependencies": {
+    "coffee-script": "^1.10.0"
+  }
+}
