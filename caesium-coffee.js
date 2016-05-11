@@ -12,6 +12,11 @@ module.exports = {
   parseWeight: 15,
   displayName: 'Coffee Script',
 
+  onRequire: function(){
+    require('coffee-script/register')
+    process.bundleTransforms.push(require('coffeeify'))
+  },
+
   createRoute: function(fileObject){
     if(fileObject.frontMatter.path){
       route = fileObject.frontMatter.path
