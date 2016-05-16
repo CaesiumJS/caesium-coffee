@@ -15,6 +15,7 @@ module.exports = {
   onRequire: function(){
     require('coffee-script/register')
     process.bundleTransforms.push(require('coffeeify'))
+    process.bundleExtensions.push('.coffee')
   },
 
   createRoute: function(fileObject){
