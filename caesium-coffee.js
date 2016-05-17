@@ -28,7 +28,9 @@ module.exports = {
       }
     }else{
       route = fileObject.descriptor
-      target = route.replace(/\.coffee$/, '.html')
+      target = route.replace(/\.coffee$/, '/index.html')
+      folder = target.replace(/\/[^/.]+\.[^/.]+$/, "")
+      route = "/" + folder
     }
 
     folder = target.replace(/\/[^/.]+\.[^/.]+$/, "")

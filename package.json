@@ -1,6 +1,6 @@
 {
   "name": "caesium-coffee",
-  "version": "0.0.1-alpha4",
+  "version": "0.0.1-alpha5",
   "description": "Coffee Script compiler for caesium",
   "main": "caesium-coffee.js",
   "scripts": {
@@ -23,5 +23,9 @@
   "dependencies": {
     "coffee-script": "^1.10.0",
     "coffeeify": "^2.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
   }
 }
