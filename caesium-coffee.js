@@ -34,7 +34,7 @@ module.exports = {
     folder = target.replace(/\/[^/.]+\.[^/.]+$/, "")
 
     return {
-      route: route,
+      path: route,
       targetFile: target,
       folder: folder
     }
