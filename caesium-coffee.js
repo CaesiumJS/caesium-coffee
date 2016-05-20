@@ -47,7 +47,8 @@ module.exports = {
       require: require,
       module: {
         exports: null
-      }
+      },
+      caesiumClient: caesiumClient
     }
 
     fileObject.rawBody = CoffeeScript.compile(fileObject.rawBody)
